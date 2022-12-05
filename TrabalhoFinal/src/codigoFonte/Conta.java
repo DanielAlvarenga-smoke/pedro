@@ -3,7 +3,7 @@ package codigoFonte;
 import java.time.LocalDate;
 import javax.swing.JOptionPane;
 
-class Conta {
+public class Conta {
 
     private String usuario;
     private String cpf;
@@ -34,7 +34,7 @@ class Conta {
         return true;
     }
 
-    void transfere(Conta c, double deposito) {
+    public void transfere(Conta c, double deposito) {
         this.saca(deposito);
         c.deposito(deposito);
         this.transferencias += "\nTransferencia realizada, R$" + deposito + " foram enviados para " + c.getUsuario();

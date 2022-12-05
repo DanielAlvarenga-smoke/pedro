@@ -43,4 +43,8 @@ public class BD {
         }
         return null;
     }
+
+    public static void add(Conta conta) {
+        throw new UnsupportedOperationException("Adicionado"); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

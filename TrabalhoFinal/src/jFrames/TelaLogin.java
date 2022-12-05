@@ -147,7 +147,8 @@ public class TelaLogin extends javax.swing.JFrame {
     private void botaoLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoLoginActionPerformed
 
         if(senha.getText().equals("pedrodaniel")&&usuario.getText().equals("20")){
-            JOptionPane.showMessageDialog(null, "Correto");
+            Banco banco = new Banco();
+            banco.setVisible(true);
         }
         else{
         JOptionPane.showMessageDialog(null, "Usuário ou senha incorretos, tente novamente!");
